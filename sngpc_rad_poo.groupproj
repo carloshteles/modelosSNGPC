@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{46D0F70D-FD0A-4B45-9551-670A026507BA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="sngpc_rad.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="sngpc_rad">
+        <MSBuild Projects="sngpc_rad.dproj"/>
+    </Target>
+    <Target Name="sngpc_rad:Clean">
+        <MSBuild Projects="sngpc_rad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="sngpc_rad:Make">
+        <MSBuild Projects="sngpc_rad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="sngpc_rad"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="sngpc_rad:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="sngpc_rad:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

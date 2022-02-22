@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/02/22 10:48:09.176,=C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/22 10:49:40.609,C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\projetosSNGPC\RAD\rad.view.menu.principal.pas=C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/22 10:49:40.609,C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\projetosSNGPC\RAD\rad.view.menu.principal.fmx=C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/02/22 10:49:56.179,=C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/22 10:50:42.241,C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\projetosSNGPC\RAD\controller\rad.controller.datamodule.dfm=C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/02/22 10:50:42.241,C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\projetosSNGPC\RAD\controller\rad.controller.datamodule.pas=C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/22 10:51:27.976,C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\projetosSNGPC\snpgc_exemplos.dproj=C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/02/22 10:51:49.244,C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\projetosSNGPC\sngpc_rad.dproj=C:\Users\carlo\OneDrive\Documentos\Embarcadero\Studio\Projects\projetosSNGPC\snpgc_exemplos.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
